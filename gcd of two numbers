@@ -1,0 +1,8 @@
+gcd of 8085                                                                                       LDA 2050
+MOV B, A
+LDA 2051
+CMP B
+JNC loop
+MOV A, B
+loop: STA 3050
+HLT
